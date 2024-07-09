@@ -1,0 +1,34 @@
+# DA0 DESIGN PATTERN : 
+1) The DAO (Data Access Object) design pattern is a structural pattern that provides an abstract interface to some type of database or other persistence mechanisms.
+2) By mapping application calls to the persistence layer, the DAO provides specific data operations without exposing details of the database.
+
+### Key Components of the DAO Pattern:
+
+1. *DAO Interface*:
+   - Defines the standard operations to be performed on a model object(s).
+
+2. *DAO Implementation*:
+   - Implements the DAO interface. This class handles the actual data operations, such as creating, reading, updating, and deleting records in the database.
+
+3. *Model (Entity)*:
+   - Represents the data in your application. These are usually Java classes that map to database tables.
+
+4. *Client*:
+   - The client code that interacts with the DAO to perform data operations. The client is unaware of the underlying data source.
+
+# Benefits of Using the DAO Pattern:
+
+ # Separation of Concerns:
+      - Business logic is separated from data access logic.
+ # Modularity: 
+    - Data access operations are centralized, making the code easier to manage and maintain.
+ # Testability: 
+    - DAO classes can be mocked or stubbed out during unit testing.
+ # Flexibility: 
+    - Changing the data source implementation requires changes only in the DAO layer, not in the business logic.
+
+
+
+
+
+This example shows how to use the DAO pattern to manage data access operations for a User entity in a Java application.
