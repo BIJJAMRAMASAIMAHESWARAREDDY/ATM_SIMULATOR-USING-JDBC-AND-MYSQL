@@ -1,6 +1,6 @@
 # ATM_SIMULATOR-USING-JDBC-AND-MYSQL
 
-#JDBC(JAVA DATABASE CONNECTIVITY) : 
+# JDBC(JAVA DATABASE CONNECTIVITY) : 
 1) JDBC (Java Database Connectivity) is an API (Application Programming Interface) in Java that defines how a client may access a database.
 2) It provides methods for querying and updating data in a database, and it is part of the Java Standard Edition platform.
 
